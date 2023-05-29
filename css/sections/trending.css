@@ -61,8 +61,8 @@
 }
 
 .trending__icon img {
-    /* width: 50px;
-    height: 50px; */
+    width: 50%;
+    height: 50%;
     object-fit: contain;
 }
 
@@ -78,13 +78,11 @@
     background-position: center;
 }
 
-.trending-sushi,
-.trending__image {
+.trending-sushi .trending__image {
     background-image: url("../../assets/japanese_sushi.png");
 }
 
-.trending-drinks,
-.trending__image {
+.trending-drink .trending__image {
     background-image: url("../../assets/japanese_drinks.png");
 }
 
